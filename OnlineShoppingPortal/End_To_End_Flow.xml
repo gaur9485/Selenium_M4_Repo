@@ -4,9 +4,10 @@
   <test thread-count="5" name="Test">
     <classes>     
       
-      <class name="testPackage.TC_AddToCart_001_Test.java"/>
-      <class name="testPackage.TC_RemoveFromCart_002_Test.java"/>
-      <class name="testPackage.TC_BuyProduct_003_Test.java"/>
+      <class name="testPackage.TC_AddToCart_001_Test"/>
+      <class name="testPackage.TC_RemoveFromCart_002_Test"/>
+      <class name="testPackage.TC_BuyProduct_003_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
