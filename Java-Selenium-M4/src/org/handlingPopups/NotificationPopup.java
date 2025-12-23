@@ -19,7 +19,7 @@ public class NotificationPopup {
 		Robot robot = new Robot();		
 		robot.keyPress(KeyEvent.VK_TAB);
 		robot.keyRelease(KeyEvent.VK_TAB);		
-		Thread.sleep(1000);	
+		Thread.sleep(2000);	
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
 		

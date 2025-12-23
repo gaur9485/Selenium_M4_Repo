@@ -20,7 +20,7 @@ public class UsingSelectionMethods {
 		}
 		else
 		{
-			System.out.println("Songle select dropdown");
+			System.out.println("Single select dropdown");
 		}
 		Thread.sleep(1000);
 		select.selectByIndex(10);

@@ -19,10 +19,6 @@ public class MavenParameterization {
 	  
 	  String data = System.getProperty("data");
 	  
-	  driver.switchTo().activeElement().sendKeys(data, Keys.ENTER);
-	  
-	  
-	  
-	  
+	  driver.switchTo().activeElement().sendKeys(data, Keys.ENTER);	  
   }
 }

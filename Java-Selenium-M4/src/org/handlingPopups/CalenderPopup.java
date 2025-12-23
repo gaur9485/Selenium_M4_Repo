@@ -29,10 +29,10 @@ public class CalenderPopup {
 		driver.findElement(By.xpath("//span[@class='commonModal__close']")).click();
 		driver.findElement(By.xpath("//span[text()='Departure']")).click();
 		
-		//driver.findElement(By.xpath("//div[contains(text(),'October')]/../..//p[text()='20']")).click();
+		driver.findElement(By.xpath("//div[contains(text(),'December')]/../..//p[text()='20']")).click();
 		
 		//Dynamic xpath
-		driver.findElement(By.xpath("//div[contains(text()," + newMonth + ")]/../..//p[text()=" + day +"]")).click();
+		//driver.findElement(By.xpath("//div[contains(text()," + newMonth + ")]/../..//p[text()=" + day +"]")).click();
 		
 	}
 

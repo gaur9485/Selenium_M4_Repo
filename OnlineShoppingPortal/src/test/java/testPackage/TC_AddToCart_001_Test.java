@@ -19,7 +19,7 @@ public class TC_AddToCart_001_Test extends BaseTest {
 	@Test
 	public void addToCartTC() throws IOException, InterruptedException {
 		
-		
+		//  Changed jenkins execution to poll SCM
 		WelcomePage wp = new WelcomePage(driver);		
 		wp.getElectronicsLink().click();
 		

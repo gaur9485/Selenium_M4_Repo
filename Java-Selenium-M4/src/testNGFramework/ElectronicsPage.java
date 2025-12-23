@@ -22,7 +22,8 @@ public class ElectronicsPage {
 	
 	
 
-	public WebElement getCellPhoneLink() {
+	public WebElement getCellPhoneLink()
+	{
 		return cellPhoneLink;
 	}
 

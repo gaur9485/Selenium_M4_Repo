@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
@@ -19,6 +20,6 @@ public class ToAvoidFileUploadPopup {
 		driver.get("https://omayo.blogspot.com/");
 		
 	    WebElement fileUploadButton = driver.findElement(By.id("uploadfile"));
-		fileUploadButton.sendKeys("‪‪‪‪C:\\Users\\Admin\\Downloads\\Unit4.pdf");   					
+		fileUploadButton.sendKeys("‪‪‪‪C:/Users/Admin/Downloads/Unit4.pdf");   					
 	}
 }
